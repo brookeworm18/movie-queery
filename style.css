@@ -7,13 +7,13 @@
 
 #navbar {
   float: left;
-  width: 14%;
+  width: 25%;
 }
 
 #page-content {
   border: 2px solid black;
   float: right;
-  width: 84%;
+  width: 75%;
 }
 
 #footer {
