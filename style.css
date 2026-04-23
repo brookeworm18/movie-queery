@@ -6,9 +6,14 @@
 }
 
 #navbar {
-  border: 2px solid black;
   float: left;
   width: 24%;
+}
+
+#page-content {
+  border: 2px solid black;
+  float: right;
+  width: 74%;
 }
 
 #footer {
