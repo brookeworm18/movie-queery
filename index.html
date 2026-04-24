@@ -24,12 +24,12 @@ const image3 = "./images/image3.jpeg"
 const image4 = "./images/image4.jpeg"
 var imageList = [image1, image2, image3, image4];
 let currentImage = 0;
+document.getElementById("banner").style.backgroundImage = "url(" + imageList[0] + ")"; //makes an image appear on loading
 function changeImage(){
   currentImage = currentImage + 1; //changes image
   if (currentImage>3){currentImage=0}; //resets cycle
   document.getElementById("banner").style.backgroundImage = "url(" + imageList[currentImage] + ")"; //outputs new image
 };
-document.getElementById("banner").style.backgroundImage = "url(" + imageList[0] + ")"; //makes an image appear on loading
 setInterval(changeImage, 15000) //timer
 </script>
 </body>
