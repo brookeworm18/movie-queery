@@ -8,6 +8,7 @@
 #navbar {
   float: left;
   width: 25%;
+  margin-bottom: 10px;
 }
 
 #page-content {
