@@ -21,6 +21,10 @@
   border-radius:5px
 }
 
+#nav-links {
+  color: red;
+}
+
 @font-face {
   font-family: ACFilmstrip; 
   src: url(./ACFilmstrip.otf); 
