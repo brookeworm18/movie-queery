@@ -18,11 +18,12 @@
   margin-bottom: 10px;
   background-color: #646246;
   color: #FFFDD0;
+  border-radius:5px
 }
 
 @font-face {
   font-family: Undeveloped; 
-  src: url(./undeveloped.book-regular.ttf); 
+  src: url(./undeveloped.ttf); 
 }
 
 h1 {
