@@ -76,7 +76,7 @@ table td a {
   color: #af4319;
 }
 
-table td a:active {
+table td a:visited {
   color: #772014;
 }
 
