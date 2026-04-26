@@ -53,7 +53,8 @@ body {
 }
 
 table {
-  margin: 20px;
+  width: 90%;
+  margin: 20px auto;
   background-color: #3f220f;
   color: #FFFDD0;
   border: 2px solid #19180a;
