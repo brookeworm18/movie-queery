@@ -12,7 +12,7 @@
 }
 
 #page-content {
-  border: 2px solid black;
+  border: 2px solid #19180a;
   float: right;
   width: 74%;
   margin-bottom: 10px;
@@ -25,9 +25,9 @@
   text-align: center; 
   border-radius:5px;
   clear:both; 
-  background:rgb(230, 231, 230);
-  color:rgb(49,78,173); 
-  border-bottom:5px solid rgb(192, 227, 255);
+  background:#19180a;
+  color:#FFFDD0; 
+  border-bottom:5px solid #af4319; 
   padding: 2px; 
   margin: 0 auto; 
   margin-top:50px;
@@ -37,12 +37,14 @@ h1 {
 text-align:center;
 letter-spacing: 20%;
 font-size: 50px;
+color: #19180a;
 }
 
 h2 {
 text-align:center;
 letter-spacing: 20%;
 font-size: 30px;
+  color: #19180a;
 }
   
 body {
