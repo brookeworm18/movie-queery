@@ -28,6 +28,11 @@
   top: 90px;
 }
 
+#paragraph {
+  position: relative;
+  margin: 10px;
+}
+
 @font-face {
   font-family: ACFilmstrip; 
   src: url(./ACFilmstrip.otf); 
