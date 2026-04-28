@@ -24,14 +24,13 @@
 }
 
 #nav-links ul {
-  position: absolute;
-  left: 50%;
-  top: 33%;
-  transform: translate(-50%, -50%);
   margin: 0;
   padding: 0;
   list-style: none;
-}
+
+  position: absolute;
+  left: 65px; 
+  top: 90px;
 
 #page-content {
   border: 2px solid #19180a;
