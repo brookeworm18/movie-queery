@@ -22,7 +22,9 @@
 }
 
 #nav-links {
-  color: red;
+  position: absolute;
+  left: 65px;  
+  top: 90px;
 }
 
 @font-face {
