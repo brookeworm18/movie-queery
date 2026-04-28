@@ -37,7 +37,7 @@ setInterval(changeImage, 15000); //timer
     
     async function onClickMovie(){
         var title = document.getElementById("title").value;
-        var url = `http://www.omdbapi.com/?apikey=fa9055ab&t=${title}&plot=full`
+        var url = `http://www.omdbapi.com/?apikey=fa9055ab&t=${title}&plot=full`;
         var response = await fetch(url);
         var data = await response.json();
         document.getElementById('year').innerText = data.Year;
