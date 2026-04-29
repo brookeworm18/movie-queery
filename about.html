@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style.css">
+  <title>Movie Queery</title>
+</head>
+
+<body>
+  <div id="banner"></div>
+  <h1>MoVIe QUeeRy</h1>
+  
+ <div id="sidebar">
+  <img id="navbar" src="./images/sidebar.png" />
+  <div id="nav-links">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="api_movies.html">Search</a></li>
+      <li><a href="blog.html">Blog</a></li>
+    </ul>
+  </div>
+</div>
+  
+  <div id="page-content">
+    <table class="table">
+    <tr>
+      <td>
+      <img src="./images/pontious_headshot_edit.jpg"
+      class="tabletext"
+      alt="black and white photo of woman with short hair and cutoff t-shirt">
+     </a>
+    </td>
+    <td class="left-align">Rachel Pontious
+    </a>
+    <p>Rachel Pontious is an librarian, archivist, artist, and educator with an MA in the History
+      of Art and Design and an MLIS in Information Science from Pratt Institute, as well as an MFA
+      in Painting from Cranbrook Academy of Art. Her research interests include the intersecting
+      histories of art and ecology in post-industrial cities, queer archives, and artistic explorations
+      of surveillance in American culture. Her passion for libraries is grounded in critical pedagogy
+      and social justice.</p>
+    </td>
+  </tr>
+  </table>
+  </div>
+  <div id="footer">
+    <p>Images courtesy of scottyboyf and TMDB<br>
+    All content licensed under CC BY-NC 4.0.</p>
+  </div>
+
+<script>
+const image1 = "./images/image1.jpeg"
+const image2 = "./images/image2.jpeg"
+const image3 = "./images/image3.jpeg"
+const image4 = "./images/image4.jpeg"
+var imageList = [image1, image2, image3, image4];
+let currentImage = 0;
+document.getElementById("banner").style.backgroundImage = "url(" + imageList[0] + ")"; //makes an image appear on loading
+function changeImage(){
+  currentImage = currentImage + 1; //changes image
+  if (currentImage>3){currentImage=0}; //resets cycle
+  document.getElementById("banner").style.backgroundImage = "url(" + imageList[currentImage] + ")"; //outputs new image
+};
+setInterval(changeImage, 15000) //timer
+</script>
+</body>
+</html>
