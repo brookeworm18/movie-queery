@@ -20,7 +20,8 @@
   background-color: #646246;
   color: #FFFDD0;
   border-radius:5px
-  padding: 10px 10px 10px 10px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 #nav-links {
