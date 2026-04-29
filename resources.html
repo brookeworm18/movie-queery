@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>Resources</title>
+</head>
+
+<body>
+  <div id="banner"></div>
+  <h1>MoVIe QUeeRy</h1>
+
+  <div>
+    <img id="navbar" src="./images/sidebar.png"></img>
+  </div>
+
+  <div id="page-content">
+    <h2>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </h2>
+
+    <br>
+
+    <table border="1" width="100%">
+      <tr>
+        <th>Blog Post</th>
+        <th>Preview</th>
+      </tr>
+
+      <tr>
+        <td>
+          <h3><a href="post1.html">Post Title One</a></h3>
+        </td>
+        <td>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <h3><a href="post2.html">Post Title Two</a></h3>
+        </td>
+        <td>
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <h3><a href="post3.html">Post Title Three</a></h3>
+        </td>
+        <td>
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <div id="footer">
+    <p>
+      Images courtesy of scottyboyf and TMDB<br>
+      All content licensed under CC BY-NC 4.0.
+    </p>
+  </div>
+
+<script>
+const image1 = "./images/image1.jpeg"
+const image2 = "./images/image2.jpeg"
+const image3 = "./images/image3.jpeg"
+const image4 = "./images/image4.jpeg"
+
+var imageList = [image1, image2, image3, image4];
+let currentImage = 0;
+
+document.getElementById("banner").style.backgroundImage = "url(" + imageList[0] + ")";
+
+function changeImage(){
+  currentImage = currentImage + 1;
+  if (currentImage > 3){ currentImage = 0 };
+  document.getElementById("banner").style.backgroundImage = "url(" + imageList[currentImage] + ")";
+};
+
+setInterval(changeImage, 15000);
+</script>
+
+</body>
+</html>
