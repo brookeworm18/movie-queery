@@ -61,26 +61,31 @@ table {
   width: 90%;
   margin: 20px auto;
   color: #FFFDD0;
+  border-collapse: collapse;
+  background-color: transparent;
 }
 
 th {
-  background-color: #772014;
+  background-color: transparent;
   color: #FFFDD0;
   padding: 12px;
   text-align: left;
+  border: none;
 }
 
 td {
   padding: 12px;
-  border-bottom: 1px solid #19180a;
+  border: none;
+  background-color: transparent;
+  color: #FFFDD0;
 }
 
 table td a {
-  color: #af4319;
+  color: #FFFDD0;
 }
 
 table td a:visited {
-  color: #772014;
+  color: #FFFDD0;
 }
 
 td h3 {
