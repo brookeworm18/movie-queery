@@ -105,3 +105,37 @@ td h3 {
   margin: 0 auto; 
   margin-top:50px;
 }
+
+#blog-posts {
+  width: 90%;
+  margin: 20px auto;
+}
+
+#blog-posts article {
+  margin-bottom: 50px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #19180a;
+}
+
+#blog-posts article:last-child {
+  border-bottom: none;
+}
+
+#blog-posts h3 {
+  margin-bottom: 15px;
+  color: #FFFDD0;
+  font-size: 28px;
+}
+
+#blog-posts p {
+  margin-bottom: 14px;
+  line-height: 1.7;
+  color: #FFFDD0;
+  font-size: 16px;
+}
+
+#page-content h2 {
+  color: #FFFDD0;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
