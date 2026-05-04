@@ -3,7 +3,7 @@
   height: 300px;
   background-position: center;
   border-radius:5px;
-   margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 #leftnav {padding-left:5px; border:2px outset #a38893; width:25%;font-size:0.8rem;line-height: 1.6;
@@ -16,17 +16,18 @@
   height: auto;
   margin-right: 15px;
   margin-bottom: 15px;
+  margin-top: 5px;
   background-color: #482c3d;
   color: #f8e8cc;
-  padding-right: 20px;
-  padding-left: 20px;
-  padding-bottom: 20px;
+  padding: 15px 20px 20px 20px;
+  border-radius: 5px;
 }
 
 #nav-links {
   float: left;
   width: 25%;
   margin-left: 10px;
+  margin-top: 0;
 }
 
 #nav-links ul {
@@ -34,12 +35,17 @@
   margin: 0;
   padding: 0;
   background-color: #482c3d;
+  border-radius: 5px;
+}
+
+#nav-links li {
+  margin-bottom: 2px;
 }
 
 #nav-links li a {
   display: block;
   color: #f8e8cc;
-  padding: 14px 16px;
+  padding: 12px 16px;
   text-decoration: none;
   border-bottom: 1px solid #a38893;
 }
@@ -61,22 +67,26 @@
 }
 
 h1 {
-text-align:center;
-font-size: 120px;
-color: #0d050a;
-font-family: ACFilmstrip;
+  text-align:center;
+  font-size: 120px;
+  color: #0d050a;
+  font-family: ACFilmstrip;
+  margin: 5px 0;
 }
 
 h2 {
-text-align:center;
-letter-spacing: 20%;
-font-size: 30px;
+  text-align:center;
+  letter-spacing: 20%;
+  font-size: 30px;
   color: #a38893;
+  margin: 10px 0 15px 0;
 }
   
 body {
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color:#2e1624; font-size: 1rem;
+  background-color:#2e1624;
+  font-size: 1rem;
+  margin: 0;
 }
 
 table {
@@ -123,9 +133,9 @@ td h3 {
   background:#482c3d;
   color:#f8e8cc; 
   border-bottom:5px solid #e6d389; 
-  padding: 2px; 
+  padding: 10px; 
   margin: 0 auto; 
-  margin-top:50px;
+  margin-top:30px;
 }
 
 #blog-posts {
@@ -134,8 +144,8 @@ td h3 {
 }
 
 #blog-posts article {
-  margin-bottom: 50px;
-  padding-bottom: 25px;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
   border-bottom: 1px solid #a38893;
 }
 
@@ -144,13 +154,13 @@ td h3 {
 }
 
 #blog-posts h3 {
-  margin-bottom: 15px;
+  margin-bottom: 12px;
   color: #a37791;
   font-size: 28px;
 }
 
 #blog-posts p {
-  margin-bottom: 14px;
+  margin-bottom: 12px;
   line-height: 1.7;
   color: #e6dcdb;
   font-size: 16px;
@@ -158,7 +168,7 @@ td h3 {
 
 #page-content h2 {
   color: #a38893;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   line-height: 1.5;
 }
 
@@ -167,7 +177,7 @@ td h3 {
   letter-spacing: 4px;
   text-transform: uppercase;
   color: #a38893;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
   padding-bottom: 6px;
   border-bottom: 1px solid #a38893;
 }
