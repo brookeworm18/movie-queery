@@ -102,7 +102,7 @@ th {
   color: #f8e8cc;
   padding: 12px;
   text-align: left;
-  border: none;
+  border-bottom: 1px solid #a38893;
 }
 
 td {
