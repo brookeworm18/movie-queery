@@ -182,3 +182,18 @@ td h3 {
   padding-bottom: 6px;
   border-bottom: 1px solid #a38893;
 }
+@media screen and (max-width: 700px) {
+  #nav-links, #page-content {
+    float: none;
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  h1 {
+    font-size: 70px;
+  }
+
+  #banner {
+    height: 200px;
+  }
+}
