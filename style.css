@@ -95,6 +95,7 @@ table {
   color: #f8e8cc;
   border-collapse: collapse;
   background-color: transparent;
+  border: 2px solid #a38893;
 }
 
 th {
