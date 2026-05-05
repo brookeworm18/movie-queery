@@ -215,10 +215,12 @@ td h3 {
   }
 
   #banner {
-    height: 200px;
+    float: none;
+    height: 50px;
   }
   
   #bio-photo {
+    float: none;
     width: 25%;
   }
 }
