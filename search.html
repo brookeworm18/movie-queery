@@ -70,7 +70,15 @@ setInterval(changeImage, 15000);
         document.getElementById('year').innerText = data.Year;
         document.getElementById('plot').innerText = data.Plot;
     
-    }
+    };
+
+    document.getElementById('title').addEventListener('keydown', function(event) {
+  		if (event.keyCode === 13) {
+   		event.preventDefault();
+    		document.getElementById('button').click();
+ 	 	}
+	});
+    
 </script>
 
         
