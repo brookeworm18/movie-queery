@@ -216,11 +216,11 @@ td h3 {
 
   #banner {
     float: none;
-    height: 50px;
+    height: 100px;
   }
   
   #bio-photo {
+    clear: both;
     float: none;
-    width: 25%;
   }
 }
