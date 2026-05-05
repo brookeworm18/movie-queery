@@ -197,3 +197,10 @@ td h3 {
   border-bottom: 1px solid #a38893;
 }
 
+@media screen and (max-width: 700px) {
+  #nav-links, #page-content {
+    float: none;
+    width: 90%;
+    margin: 10px auto;
+  }
+
