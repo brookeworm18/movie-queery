@@ -197,7 +197,7 @@ td h3 {
   border-bottom: 1px solid #a38893;
 }
 
-@media screen and (max-width: 700px)
+@media screen and (max-width: 700px) {
   #nav-links {
     float: none;
     width: 90%;
@@ -217,3 +217,4 @@ td h3 {
   #banner {
     height: 200px;
   }
+}
