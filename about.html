@@ -93,13 +93,14 @@ const image1 = "./images/image1.jpeg"
 const image2 = "./images/image2.jpeg"
 const image3 = "./images/image3.jpeg"
 const image4 = "./images/image4.jpeg"
-var imageList = [image1, image2, image3, image4];
+const image5 = "./images/image5.jpeg"
+var imageList = [image1, image2, image3, image4, image5];
 let currentImage = 0;
 document.getElementById("banner").style.backgroundImage = "url(" + imageList[0] + ")"; 
 function changeImage(){
-  currentImage = currentImage + 1;
-  if (currentImage>3){currentImage=0}; 
-  document.getElementById("banner").style.backgroundImage = "url(" + imageList[currentImage] + ")";
+  currentImage = currentImage + 1; 
+  if (currentImage>4){currentImage=0}; 
+  document.getElementById("banner").style.backgroundImage = "url(" + imageList[currentImage] + ")"; 
 };
 setInterval(changeImage, 5000)
 </script>
